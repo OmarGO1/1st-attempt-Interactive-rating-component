@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+}
+
+#tag {
+    background-color: #1D242E;
+    border-radius: 30px;
+    width: 421px;
+    height: 421px;
+
+}
+
+#tag h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 34px;
+    margin-bottom: 10px;
+}
+
+#tag p {
+    width: 324px;
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 34px;
+    margin-bottom: 32px;
+    line-height: 21px;
+}
+
+#rs_star {
+    display: flex;
+    width: 52px;
+    height: 48px;
+    background-color: #262F38;
+    border-radius: 9000px;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+}
+
+#options {
+    width: 370px;
+    margin-left: 34px;
+    ;
+}
+
+#options>.btn {
+    color: white;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9000px;
+    float: left;
+    margin-right: 23px;
+    background-color: #262F38;
+    margin-bottom: 30px;
+
+}
+
+#options>.btn:hover {
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+
+
+#btn_submit {
+    margin-left: 32px;
+    border-radius: 50px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    height: 46px;
+    width: 345px;
+    border: 0;
+}
+
+#btn_submit:hover {
+    cursor: pointer;
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.btn_secondary {
+    background-color: hsl(216, 12%, 54%) !important;
+}
+
+
+.attribution {
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    height: 5%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 433px) {
+    #tag {
+        width: 360px;
+    }
+
+    #options {
+        width: 360pt;
+    }
+
+    #options>.btn {
+        margin-right: 15px;
+    }
+
+    #btn_submit {
+        width: 310px;
+    }
+}
